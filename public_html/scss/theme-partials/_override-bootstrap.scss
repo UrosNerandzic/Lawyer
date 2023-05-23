@@ -1,0 +1,10 @@
+html{
+    font-size: 10px;
+}
+
+$font-size-base: 1.6rem;
+
+//override bootstrap variables
+$grid-gutter-width: 12px;// 30px !default
+$gray-900: #1E1E1E;//#212529 !default;
+$primary: #1A77CD;
