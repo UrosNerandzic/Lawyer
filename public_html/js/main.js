@@ -1,4 +1,4 @@
-$(document).redy(function(){
+$(document).ready(function(){
     
         //ANIMATION
     function animation() {
