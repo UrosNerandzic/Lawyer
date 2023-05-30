@@ -10656,4 +10656,29 @@ footer .copyright a {
   }
 }
 
+.news-page-section .lead-section-title {
+  font-size: 36px !important;
+  line-height: 46px !important;
+}
+
+.news-single-content {
+  padding: 67px 0;
+}
+
+.news-single-content img {
+  width: 100%;
+}
+
+.news-single-content p {
+  margin-bottom: 30px;
+}
+
+.news-single-content .news-tags a {
+  text-transform: lowercase;
+}
+
+.news-single-content .news-tags .tag-title {
+  font-weight: 500;
+}
+
 /*# sourceMappingURL=theme.css.map */
