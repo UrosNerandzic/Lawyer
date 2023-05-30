@@ -31,3 +31,53 @@
         }
     }
 }
+
+//team-members
+
+.team-members{ 
+    figure{
+        overflow: hidden;
+        img{
+            transition:  1s linear;
+            &:hover{
+                transform: scale(1.05);
+            }
+        }
+    }
+    padding: 50px 0; 
+    .team-member{
+        .fa-linkedin-in{
+            position: absolute;
+            z-index: 5;
+            right: 15px;
+            bottom: 16px;
+            color:$white;
+            font-size: 2.8rem;
+            &:hover{
+                text-decoration: none;
+            }
+        }
+        h5{
+            a{
+                font-size: 2.2rem;
+                line-height: 2.7rem;
+                color:$body-color;
+                &:hover{
+                text-decoration: none;
+            }
+            }
+        }
+        .team-member-position{
+            color: $primary;
+            font-size: 1.8rem;
+            line-height: 2.7rem;
+            font-weight: $font-weight-medium;
+        }
+    }
+}
+
+@media(min-width:992px){
+    .team-members{ 
+    padding: 64px 0 133px; 
+}
+}
